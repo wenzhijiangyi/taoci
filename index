@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>瓷韵雅集 - 德化羊脂玉陶瓷精品鉴赏</title>
+  <!-- 引入Font Awesome图标 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- 引入共用样式 -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- 导航栏 -->
+  <nav id="navbar" class="navbar">
+    <div class="container">
+      <a href="index.html" class="logo serif-font">
+        <i class="fa-solid fa-mug-saucer"></i>
+        瓷韵雅集
+      </a>
+      <!-- 电脑端导航 -->
+      <ul class="nav-list">
+        <li><a href="./index.html" class="nav-link">首页</a></li>
+        <li><a href="./product.html" class="nav-link">产品系列</a></li>
+        <li><a href="./craft.html" class="nav-link">匠心工艺</a></li>
+        <li><a href="./story.html" class="nav-link">品牌故事</a></li>
+        <li><a href="./contact.html" class="nav-link">联系我们</a></li>
+      </ul>
+      <!-- 手机端汉堡菜单 -->
+      <div id="menuBtn" class="menu-btn">
+        <i class="fa-solid fa-bars"></i>
+      </div>
+    </div>
+    <!-- 手机端导航菜单 -->
+    <div id="mobileMenu" class="mobile-menu hidden">
+      <div class="container">
+        <a href="./index.html" class="nav-link">首页</a>
+        <a href="./product.html" class="nav-link">产品系列</a>
+        <a href="./craft.html" class="nav-link">匠心工艺</a>
+        <a href="./story.html" class="nav-link">品牌故事</a>
+        <a href="./contact.html" class="nav-link">联系我们</a>
+      </div>
+    </div>
+  </nav>
+  
+  <!-- 主体内容 -->
+  <main class="main">
+    <!-- Banner区 -->
+    <section class="banner">
+      <div class="banner-bg">
+        <img src="https://picsum.photos/id/225/1920/1080" alt="德化羊脂玉陶瓷背景">
+      </div>
+      <div class="container banner-content fade-in-up">
+        <h2 class="serif-font">德化瓷韵 <br> 羊脂凝玉</h2>
+        <p>传承千年德化白瓷工艺，甄选羊脂玉瓷原料，手工雕琢每一件精品，白如凝脂、润如羊玉，尽显中式瓷艺之美。</p>
+        <div class="banner-btns">
+          <a href="product.html" class="btn btn-outline">浏览精品</a>
+          <a href="craft.html" class="btn btn-outline">探寻工艺</a>
+        </div>
+      </div>
+      <a href="#product" class="scroll-down"><i class="fa-solid fa-chevron-down"></i></a>
+    </section>
+
+    <!-- 精品推荐（产品速览） -->
+    <section id="product" class="section bg-secondary" style="background-opacity: 0.2;">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h3 class="serif-font">羊脂玉瓷精品推荐</h3>
+          <p>每一件均为德化原产地出品，手工修坯、高温烧制，白润细腻，瓷质通透</p>
+          <div class="line"></div>
+        </div>
+        <div class="grid-1 md:grid-2 lg:grid-3
+          <!-- 产品1 -->
+          <div class="product-card card-hover fade-in-up">
+            <div class="product-card-img">
+              <img src="https://picsum.photos/id/242/800/800" alt="羊脂玉瓷功夫茶具套组" class="product-img">
+            </div>
+            <div class="product-card-content">
+              <h4>羊脂玉瓷功夫茶具套组</h4>
+              <p>一壶四杯，薄胎通透，胎质细腻如羊脂，茶汤显色，适合普洱、铁观音等茶品。</p>
+              <div class="product-card-footer">
+                <span class="product-card-price">¥1298</span>
+                <a href="product.html" class="product-card-link">查看更多 <i class="fa-solid fa-arrow-right text-sm"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- 产品2 -->
+          <div class="product-card card-hover fade-in-up" style="animation-delay: 0.2s;">
+            <div class="product-card-img">
+              <img src="https://picsum.photos/id/229/800/800" alt="羊脂玉瓷三才盖碗" class="product-img">
+            </div>
+            <div class="product-card-content">
+              <h4>羊脂玉瓷三才盖碗</h4>
+              <p>天地人三才设计，口径9cm，薄胎不烫手，白润无瑕，适合日常泡茶、茶席雅集。</p>
+              <div class="product-card-footer">
+                <span class="product-card-price">¥358</span>
+                <a href="product.html" class="product-card-link">查看更多 <i class="fa-solid fa-arrow-right text-sm"></i></a>
+              </div>
+            </div>
+          </div>
+          <!-- 产品3 -->
+          <div class="product-card card-hover fade-in-up" style="animation-delay: 0.4s;">
+            <div class="product-card-img">
+              <img src="https://picsum.photos/id/175/800/800" alt="羊脂玉瓷品茗杯单杯" class="product-img">
+            </div>
+            <div class="product-card-content">
+              <h4>羊脂玉瓷品茗杯单杯</h4>
+              <p>容量50ml，胎质细腻，杯壁通透，上手温润，可单买也可成套定制，刻字专属。</p>
+              <div class="product-card-footer">
+                <span class="product-card-price">¥88/个</span>
+                <a href="product.html" class="product-card-link">查看更多 <i class="fa-solid fa-arrow-right text-sm"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 查看更多产品 -->
+        <div class="text-center mt-48">
+          <a href="product.html" class="btn btn-outline">查看全部产品</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 工艺速览 -->
+    <section id="craft" class="section bg-primary">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h3 class="serif-font">千年工艺 匠心速览</h3>
+          <p>德化羊脂玉瓷传承千年手工制瓷工艺，经多道工序，方成一件精品</p>
+          <div class="line"></div>
+        </div>
+        <div class="grid-1 md:grid-2 lg:grid-3">
+          <!-- 工艺1 -->
+          <div class="craft-card card-hover fade-in-up">
+            <div class="craft-card-icon"><i class="fa-solid fa-gem"></i></div>
+            <h4>甄选原料</h4>
+            <p>精选德化本地高岭土，经多次淘洗、揉泥，去除杂质，只为打造如羊脂般细腻的瓷胎。</p>
+          </div>
+          <!-- 工艺2 -->
+          <div class="craft-card card-hover fade-in-up" style="animation-delay: 0.2s;">
+            <div class="craft-card-icon"><i class="fa-solid fa-hand-sparkles"></i></div>
+            <h4>手工修坯</h4>
+            <p>非遗匠人手工拉坯、修坯，把控器型比例，薄胎均匀，让瓷身通透不失质感。</p>
+          </div>
+          <!-- 工艺3 -->
+          <div class="craft-card card-hover fade-in-up" style="animation-delay: 0.4s;">
+            <div class="craft-card-icon"><i class="fa-solid fa-fire-flame-curved"></i></div>
+            <h4>高温烧制</h4>
+            <p>1380℃高温还原焰烧制，历时12小时，瓷胎与釉水融合，瓷质致密，温润如玉。</p>
+          </div>
+        </div>
+        <!-- 查看更多工艺 -->
+        <div class="text-center mt-48">
+          <a href="craft.html" class="btn btn-outline">探寻完整工艺</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 品牌简介 -->
+    <section id="story" class="section bg-secondary" style="background-opacity: 0.2;">
+      <div class="container">
+        <div class="section-title fade-in">
+          <h3 class="serif-font">品牌故事</h3>
+          <div class="line"></div>
+        </div>
+        <div class="story-content flex-lg">
+          <div class="story-img lg-w-1-2 fade-in">
+            <img src="https://picsum.photos/id/247/800/1000" alt="德化羊脂玉瓷品牌工坊">
+          </div>
+          <div class="story-text lg-w-1-2 fade-in-up">
+            <h4 class="serif-font">瓷韵雅集 · 源于德化</h4>
+            <p>瓷韵雅集扎根千年瓷都德化，深耕羊脂玉瓷领域十余年，传承非遗制瓷工艺，联合当地资深匠人团队，专注打造高品质羊脂玉陶瓷产品。</p>
+            <p>我们坚持「原产地、原工艺、原原料」，拒绝工业化量产，每一件产品都融入匠人的心血，让德化羊脂玉瓷的温润之美，走进更多茶友、藏家的生活。</p>
+            <p>从原料甄选到成品交付，我们始终以「匠心」为核心，以「品质」为根本，致力于让千年德化瓷艺，在当代焕发出新的光彩。</p>
+            <div class="story-btns mt-32">
+              <a href="story.html" class="btn btn-outline">了解更多</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 页脚 -->
+<footer class="footer">
+    <div class="container">
+      <div>
+        <a href="./index.html" class="footer-logo serif-font">
+          <i class="fa-solid fa-mug-saucer"></i>
+          瓷韵雅集
+        </a>
+        <p class="footer-desc">德化羊脂玉瓷专业品牌，传承千年瓷艺，匠心打造每一件精品，让白瓷之美温润生活。</p>
+        <div class="footer-social">
+          <a href="#"><i class="fa-solid fa-weibo"></i></a>
+          <a href="#"><i class="fa-solid fa-video"></i></a>
+          <a href="#"><i class="fa-solid fa-instagram"></i></a>
+        </div>
+      </div>
+      <div>
+        <h5 class="footer-title">快速导航</h5>
+        <ul class="footer-list">
+          <li><a href="./index.html">首页</a></li>
+          <li><a href="./product.html">产品系列</a></li>
+          <li><a href="./craft.html">匠心工艺</a></li>
+          <li><a href="./story.html">品牌故事</a></li>
+          <li><a href="./contact.html">联系我们</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="footer-title">产品系列</h5>
+        <ul class="footer-list">
+          <li><a href="./product.html">功夫茶具套组</a></li>
+          <li><a href="./product.html">三才盖碗</a></li>
+          <li><a href="./product.html">品茗单杯</a></li>
+          <li><a href="./product.html">陶瓷摆件</a></li>
+          <li><a href="./product.html">定制礼盒</a></li>
+        </ul>
+      </div>
+      <div>
+        <h5 class="footer-title">品牌理念</h5>
+        <ul class="footer-list">
+          <li><a href="./story.html">原产地工艺</a></li>
+          <li><a href="./craft.html">非遗传承</a></li>
+          <li><a href="./story.html">匠人团队</a></li>
+          <li><a href="./story.html">品质坚守</a></li>
+          <li><a href="./contact.html">扫码咨询</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="container copyright">
+      <p>© 2025 瓷韵雅集 版权所有 | 福建省德化县瓷韵雅集陶瓷有限公司</p>
+      <p>本网站所有产品图片均为实拍，盗图必究 | 温馨提示：陶瓷为手工制品，细微差异为正常现象</p>
+    </div>
+  </footer>
+
+  <!-- 引入共用脚本 -->
+  <script src="js/main.js"></script>
+</body>
+</html>
